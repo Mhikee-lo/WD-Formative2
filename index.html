@@ -5,43 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<style>
-    
-    
-    a {
-        display: block;
-        margin: auto;
-    }
-    
-    Name {
-        background-color: rgb(227, 240, 180);
-    }
+    <style>
+        h1, h2, h3, h4, p {
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
 
-</style>
-<img src="Me.jpg" alt="Fixed"
-height="200in" width="200in">
+        a {
+            text-align: center;
+            position: relative;
+            background: rgb(255, 255, 255);
+            color: darkslategray;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.5em;
+            letter-spacing: 0.1em;
+            font-weight: 400;
+            padding: 10px 30px;
+            transition: 0.5s;
+            display: inline-block;
+            margin: 10px auto;
+        }
+
+        a:hover {
+            background: lightblue;
+            letter-spacing: 0.2em;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 30px;
+            border-radius: 20%;
+            border: 5px solid #000000;
+        }
+
+        .Name, .Skill, .Contact, .Education, .Last {
+            background-color: rgb(0, 0, 0);
+        }
+
+        button {
+            background-color: rgb(222, 231, 93);
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 20%;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-size: 1em;
+            letter-spacing: 0.1em;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.5s, letter-spacing 0.5s;
+        }
+
+        button:hover {
+            background-color: rgb(0, 0, 0);
+            letter-spacing: 0.25em;
+        }
+    </style>
+</head>
 <body>
+    <div class="navigation">
+        <button onclick="document.getElementById('contacts').scrollIntoView();">Contacts</button>
+        <button onclick="document.getElementById('education').scrollIntoView();">Education</button>
+        <button onclick="document.getElementById('career-objectives').scrollIntoView();">Career Objectives</button>
+        <button onclick="document.getElementById('experience').scrollIntoView();">Experience</button>
+        <button onclick="document.getElementById('skills').scrollIntoView();">Skills</button>
+        <button onclick="document.getElementById('projects').scrollIntoView();">Projects</button>
+    </div>
+
+    <img src="https://i.pinimg.com/736x/50/34/c8/5034c89fbd7428802fa8cb589cdea4fd.jpg" alt="Fixed" height="200px" width="200px">
     <h1>Informations</h1>
     <p>Mhike Lorenz V. Sevilleja</p>
     <p>Program: BSITAGD</p>
     <p>Address: San Mateo, Rizal</p>
 
-    <h2>Contacts</h2>
+    <h2 id="contacts">Contacts</h2>
     <p>Contact No.: 090054308612</p>
-    <P>Student Email: 202310540@fit.edu.ph</P>
+    <p>Student Email: 202310540@fit.edu.ph</p>
     <p>Personal Email: mhikeelorenzovaldezsevilleja@gmail.com</p>
 
-    <h3>Education</h3>
+    <h3 id="education">Education</h3>
     <p>College: Currently on FEUTECH</p>
     <p>Senior high school: MOSES CRADLE ACADEMY, 2021 to 2023</p>
     <p>Junior high school: MOSES CRADLE ACADEMY, 2017 to 2020</p>
     <p>Elementary school: MOSES CRADLE ACADEMY, 2015 to 2016</p>
 
-    <h3>Career Objectives</h3>
+    <h4 id="career-objectives">Career Objectives</h4>
     <p>Seeking a role in a dynamic company that values innovation and creativity, where I can apply my expertise in web development and design to deliver exceptional user experiences.</p>
 
+    <h4 id="experience">Experience</h4>
+    <p>N/A</p>
 
+    <h4 id="skills">Skills</h4>
+    <p>Web Development</p>
+    <p>Designing character</p>
 
+    <h4 id="projects">Projects</h4>
+    <p>N/A</p>
 </body>
 </html>
