@@ -5,20 +5,16 @@
 <br />
 <div align="center">
   <a href="https://github.com/Mhikee-lo">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="Cog.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Title</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   Short Description. (Optional)
 </div>
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=[https://github.com/Mhikee-lo])
 
 ---
 
