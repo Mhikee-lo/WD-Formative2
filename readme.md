@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/Mhikee-lo">
   </a>
-  <h3 align="center">Title</h3>
+  <h3 align="center">Read here</h3>
 </div>
 <div align="center">
-  Short Description. (Optional)
+  Mhike Lorenz V. Sevilleja
 </div>
 
 <br />
